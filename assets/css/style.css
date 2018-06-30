@@ -12,20 +12,18 @@ body {
     color: white;
     padding: 9px;
 
-
-
 }
 
 .container-fluid .instructions {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     
-
 }
 
 .instructions {
     background-color:yellow;
     height: 425px;
+
 }
 
 .winNum {
@@ -43,7 +41,6 @@ body {
     font-size: 16px;
     margin-left: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 
 }
 
@@ -74,11 +71,5 @@ body {
 @media only screen and (max-width: 417px) {
     .container-fluid .instructions {
         font-size: 16px;
-    }
-}
-
-@media only screen and (max-width: 575px) {
-    .winNum {
-        width: 10px;
     }
 }
