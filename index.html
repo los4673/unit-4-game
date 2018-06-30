@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Crystal Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <h1>CrystalCollector!</h1>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-7 col-lg-6 instructions">
+                <p>You will be given a random number at the start of the game.
+                    <br />
+                    <br /> There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score.
+                    <br />
+                    <br /> You win the game by matching your total score to random number, you lose the game if your total score
+                    goes above the random number.
+                    <br />
+                    <br /> The value of each crystal is hidden from you until you click on it.
+                    <br />
+                    <br /> Each time when the game starts, the game will change the values of each crystal.
+                    <br />
+                    <br />
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 col-md-3 winNum">
+                <p id="luckyNum">
+                    Good Luck!
+                </p>
+                <h6 id="currentScore">Current Score:
+                    <span id="left"></span>
+                </h6>
+            </div>
+            <div class="col-sm-5 col-md-3 results">
+                <p id="verdict">
+                    Who will win? Press on a Crystal to start.
+                </p>
+                <p id="wins">
+                    Wins:
+                </p>
+                <p id="losses">
+                    Losses:
+                    <span id="losses"></span>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 crystals">
+                <button id="button1" type="button1" class="button">
+                    <img src="/Users/carlos/Desktop/Davis/unit-4-game/assets/images/crystals-155644_1280.png" class="button1">
+                </button>
+                <button id="button2" type="button2" class="button">
+                    <img src="/Users/carlos/Desktop/Davis/unit-4-game/assets/images/crystals-155644_1280.png" class="button2">
+                </button>
+                <button id="button3" type="button3" class="button">
+                    <img src="/Users/carlos/Desktop/Davis/unit-4-game/assets/images/crystals-155644_1280.png" class="button3">
+                </button>
+                <button id="button4" type="button4" class="button">
+                    <img src="/Users/carlos/Desktop/Davis/unit-4-game/assets/images/crystals-155644_1280.png" class="button4">
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

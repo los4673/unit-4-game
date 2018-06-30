@@ -1,0 +1,84 @@
+body {
+    background-image: url("/Users/carlos/Desktop/Davis/unit-4-game/assets/images/mekong-green.png");
+
+}
+
+.container-fluid h1 {
+    background-color: orange;
+    width: 310px;
+    height: 75px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 9px;
+
+
+
+}
+
+.container-fluid .instructions {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+
+}
+
+.instructions {
+    background-color:yellow;
+    height: 425px;
+}
+
+.winNum {
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.results {
+    background-color: rgb(184, 151, 45);
+    height: 150px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.row {
+    padding: 8px;
+}
+
+.button1 {
+    width:100px;
+    height: 100px;
+    filter: hue-rotate(180deg);
+}
+.button2 {
+    width:100px;
+    height: 100px;
+}
+.button3 {
+    width:100px;
+    height: 100px;
+    filter: hue-rotate(115deg);
+}
+.button4 {
+    width:100px;
+    height: 100px;
+    filter: hue-rotate(300deg);
+}
+
+@media only screen and (max-width: 417px) {
+    .container-fluid .instructions {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .winNum {
+        width: 10px;
+    }
+}
