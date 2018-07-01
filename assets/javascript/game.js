@@ -12,16 +12,16 @@ $(document).ready(function () {
 
         if (currentScore < target) {
             $("#luckyNum").html("Target: " + target);
-            $("#verdict").text("Keep Trying!");
+            $("#verdict").html("Keep Trying!");
             $("#currentScore").html("Current Score: " + currentScore)
 
         } else if (currentScore === target) {
             wins++;
-            $("#verdict").text("Winner! Winner! Play Again?");
+            $("#verdict").html("Winner! Winner! Play Again?");
             $("#currentScore").html("Final Score: " + currentScore)
             reset();
 
-        } else if (currentScore > target) {
+        } else {
             losses++;
             $("#verdict").html("Better luck next time! Try again!");
             $("#currentScore").html("Final Score: " + currentScore)
@@ -37,8 +37,8 @@ $(document).ready(function () {
         button2Score = Math.floor(Math.random() * (1 - 13) + 13);
         button3Score = Math.floor(Math.random() * (1 - 13) + 13);
         button4Score = Math.floor(Math.random() * (1 - 13) + 13);
-        $("#wins").text("Wins: " + wins);
-        $("#losses").text("Losses: " + losses);
+        $("#wins").html("Wins: " + wins);
+        $("#losses").html("Losses: " + losses);
 
     }
 
